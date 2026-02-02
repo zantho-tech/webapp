@@ -2,19 +2,19 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen items-center justify-center font-sans bg-zantho-teal-500 dark:bg-zantho-teal-500">
+    <div className="flex min-h-screen items-center justify-center font-sans bg-zantho-teal-500 dark:bg-zantho-teal-500 text-zinc-800 dark:text-zinc-800">
       <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 sm:items-start">
         <div className="my-4">
           <span>
-          <Image
-            className="inline"
-            src="/zantho.svg"
-            alt="zantho.tech logo"
-            width={35}
-            height={35}
-            priority
-          />
-          <span className="p-1 text-3xl align-middle text-zinc-800 dark:text-zinc-800"><span className="font-semibold">zantho.</span>tech</span>
+            <Image
+              className="inline"
+              src="/zantho.svg"
+              alt="zantho.tech logo"
+              width={35}
+              height={35}
+              priority
+            />
+            <span className="p-1 text-3xl align-middle"><span className="font-semibold">zantho.</span>tech</span>
           </span>
         </div>
           
@@ -43,7 +43,7 @@ export default function Home() {
         </div>
         <div className="flex flex-col gap-4 text-base font-medium sm:flex-row my-4">
           <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px] text-white dark:text-white"
+            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-zinc-900 px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px] text-white dark:text-white"
             href="mailto:team@zantho.tech"
             target="_blank"
             rel="noopener noreferrer"
