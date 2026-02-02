@@ -5,10 +5,15 @@
   --foreground: #171717;
 }
 
+@theme {
+  --color-zantho-teal-500: #14b8a6;
+  --color-zantho-coral-500: #ff6b6b;
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
+  --font-sans: var(--font-bricolage-sans);
   --font-mono: var(--font-geist-mono);
 }
 
