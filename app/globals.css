@@ -8,6 +8,8 @@
 @theme {
   --color-zantho-teal-500: #14b8a6;
   --color-zantho-coral-500: #ff6b6b;
+  --color-zantho-charcoal: #374151;
+  
 }
 
 @theme inline {
