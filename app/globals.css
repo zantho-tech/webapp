@@ -10,13 +10,29 @@
   --color-zantho-coral-500: #ff6b6b;
   --color-zantho-charcoal: #374151;
   
+  --color-accent-caption: #108a7e;
+  --color-accent-six: #929292;
+  --color-headline: #000000;
+  --color-base-text: #6f6f6f;
+
+  --color-divider: #e9e9e9;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-bricolage-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-mono: var(--font-jetbrains-mono);
+
+  --text-caption: 12px;
+  --text-caption--font-weight: var(--font-bold);
+
+  --text-headerone: 56px;
+  --text-headerone--line-height: calc(var(--spacing) * 16);
+  --text-headerone--letter-spacing: var(--tracking-tighter);
+
+  --text-paragraph: 15px;
+  --text-paragraph--letter-spacing: var(--tracking-normal);  
 }
 
 @media (prefers-color-scheme: dark) {
