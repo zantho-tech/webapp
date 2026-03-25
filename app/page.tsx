@@ -17,18 +17,25 @@ export function Header() {
     );
 }
 
-export function Section(props) {
-  let content = props.content;
-  let attribs = props.attribs;
+// export function Section(props) {
+//   let content = props.content;
+//   let attribs = props.attribs;
 
-  return (
-      <div className={`flex flex-row w-full ${ attribs }`}>
-        {content}
-      </div>
-    );
+//   return (
+//       <div className={`flex flex-row w-full ${ attribs }`}>
+//         {content}
+//       </div>
+//     );
+// }
+
+// need to look into this in the future.
+interface CardProps {
+  header?: React.ReactNode;
+  body: React.ReactNode;
+  footer?: React.ReactNode;
 }
 
-export function Card(props) {
+export function Card(props: CardProps) {
   let header = props.header;
   let body = props.body;
   let footer = props.footer;
@@ -42,10 +49,10 @@ export function Card(props) {
   );
 }
 
-export function Button(props) {
-  let text = props.text 
-  let href = props.href
-}
+// export function Button(props) {
+//   let text = props.text 
+//   let href = props.href
+// }
 
 export default function Home() {
   return (
