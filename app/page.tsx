@@ -60,7 +60,7 @@ export default function Home() {
       
       <Header/>
 
-      <div className="collapse sm:visible">
+      <div className="visible md:invisible md:collapse">
         Hello! We're still working on the mobile view of our website. We'll get to it as soon as we can! Thank you for your patience and in the mean time please view our site on desktop!
       </div>
 
